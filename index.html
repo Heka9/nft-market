@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230118001623">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230119013315">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +30,7 @@
 					</nav>
 				</div>
 				<div class="header__buttons">
-					<button class="header__button button">Connect Wallet</button>
+					<button data-ripple class="header__button button">Connect Wallet</button>
 					<button type="button" class="header__icon icon-menu"><span></span></button>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 						<div class="content-block__label">NFT Marketplace</div>
 						<h1 class="content-block__title">Collect rare digital artworks</h1>
 						<div class="content-block__actions">
-							<button type="button" class="content-block__button button button_big">Explore</button>
+							<a href="#!" data-ripple class="content-block__button button button_big">Explore</a>
 							<div data-da=".main-block__adaptiv, 479.98" class="content-block__creators">
 								<img class="content-block__decor" src="img/main-block/decor-arrow.svg" alt="decor-arrow">
 								<a href="#" class="content-block__creator">
@@ -84,6 +84,379 @@
 					</div>
 					<div class="main-block__adaptiv"></div>
 				</div>
+
+			</section>
+			<section class="page__categories categories">
+				<div class="categories__container">
+					<h2 class="categories__title title-block">popular categories</h2>
+					<div class="categories__body">
+						<div class="categories__slider swiper">
+							<div class="categories__wrapper swiper-wrapper">
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/01.webp" type="image/webp"><img src="img/categories/01.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Games</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/02.webp" type="image/webp"><img src="img/categories/02.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Sports</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/03.webp" type="image/webp"><img src="img/categories/03.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Metaverse</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/04.webp" type="image/webp"><img src="img/categories/04.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Art</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/05.webp" type="image/webp"><img src="img/categories/05.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Music</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/06.webp" type="image/webp"><img src="img/categories/06.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Photography</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/05.webp" type="image/webp"><img src="img/categories/05.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Photography</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/04.webp" type="image/webp"><img src="img/categories/04.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Photography</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/03.webp" type="image/webp"><img src="img/categories/03.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Photography</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/02.webp" type="image/webp"><img src="img/categories/02.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Photography</div>
+								</a>
+								<a href="#" class="categories__slide slide-categories swiper-slide">
+									<div class="slide-categories__image-ibg">
+										<picture><source srcset="img/categories/01.webp" type="image/webp"><img src="img/categories/01.jpg" alt="image"></picture>
+									</div>
+									<div class="slide-categories__title">Photography</div>
+								</a>
+							</div>
+						</div>
+						<button type="button" class="categories__button categories__button_prev">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#slider-arrow"></use>
+							</svg>
+						</button>
+						<button type="button" class="categories__button categories__button_next">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#slider-arrow"></use>
+							</svg>
+						</button>
+						<div class="categories__pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="page__collections collections">
+				<div class="collections__container">
+					<div class="collections__header">
+						<h2 class="collections__title title-block">top collections</h2>
+						<div class="collections__filter">
+							<button data-duration="7" class="collections__button active"><span>7 Days</span></button>
+							<button data-duration="30" class="collections__button"><span>30 Days</span></button>
+						</div>
+					</div>
+					<div class="collections__items">
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/01.webp" type="image/webp"><img src="img/collections/01.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">NFT Worlds</h4>
+									<div class="item-collections__floor">Floor: 0.80ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/02.webp" type="image/webp"><img src="img/collections/02.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Super Worlds</h4>
+									<div class="item-collections__floor">Floor: 0.70ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/03.webp" type="image/webp"><img src="img/collections/03.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Bidethers</h4>
+									<div class="item-collections__floor">Floor: 0.10ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/04.webp" type="image/webp"><img src="img/collections/04.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Moonther</h4>
+									<div class="item-collections__floor">Floor: 0.10ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/05.webp" type="image/webp"><img src="img/collections/05.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Etherpilots</h4>
+									<div class="item-collections__floor">Floor: 0.05ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/06.webp" type="image/webp"><img src="img/collections/06.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Kive Core</h4>
+									<div class="item-collections__floor">Floor: 0.06ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/07.webp" type="image/webp"><img src="img/collections/07.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Varipack</h4>
+									<div class="item-collections__floor">Floor: 0.90ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/08.webp" type="image/webp"><img src="img/collections/08.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Proof Corn</h4>
+									<div class="item-collections__floor">Floor: 0.90ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/09.webp" type="image/webp"><img src="img/collections/09.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Mineblowings</h4>
+									<div class="item-collections__floor">Floor: 0.07ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/10.webp" type="image/webp"><img src="img/collections/10.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">NFT Flow</h4>
+									<div class="item-collections__floor">Floor: 0.50ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/11.webp" type="image/webp"><img src="img/collections/11.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Nether</h4>
+									<div class="item-collections__floor">Floor: 0.08ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/12.webp" type="image/webp"><img src="img/collections/12.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Parallel</h4>
+									<div class="item-collections__floor">Floor: 0.08ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="collections__item item-collections">
+							<div class="item-collections__media">
+								<div class="item-collections__icon">
+									<picture><source srcset="img/collections/12.webp" type="image/webp"><img src="img/collections/12.jpg" alt="collections-icon"></picture>
+									<div class="item-collections__number"></div>
+								</div>
+							</div>
+							<div class="item-collections__body">
+								<div class="item-collections__content">
+									<h4 class="item-collections__title">Parallel</h4>
+									<div class="item-collections__floor">Floor: 0.08ETH</div>
+								</div>
+								<div class="item-collections__info">
+									<div class="item-collections__eth">5.8k ETH</div>
+									<div class="item-collections__value">$8.4M</div>
+									<div class="item-collections__persent">+294.7%</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<a href="#!" data-ripple class="collections__see-all button button_bold">See All Collection</a>
+				</div>
+			</section>
+			<section class="page__download download">
+				<div class="download__container">
+					<div class="download__title title-block">
+						<p>
+							Download Qeeb app to track your NFT portfolio and discover more
+						</p>
+					</div>
+					<div class="download__links">
+						<a href="#!" data-ripple class="download__link download__link_apple">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#apple"></use>
+							</svg>
+							<span class="download__text">App Store</span>
+						</a>
+						<a href="#!" data-ripple class="download__link download__link_android">
+							<svg>
+								<use xlink:href="img/icons/icons.svg#android"></use>
+							</svg>
+							<span class="download__text">Google Play</span>
+						</a>
+					</div>
+				</div>
 			</section>
 		</main>
 		<footer class="footer">
@@ -91,7 +464,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230118001623"></script>
+	<script src="js/app.min.js?_v=20230119013315"></script>
 </body>
 
 </html>
