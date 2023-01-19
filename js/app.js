@@ -3481,8 +3481,7 @@
             breakpoints: {
                 320: {
                     slidesPerView: 1.2,
-                    spaceBetween: 15,
-                    autoHeight: true
+                    spaceBetween: 15
                 },
                 480: {
                     slidesPerView: 2,
@@ -3498,6 +3497,47 @@
                 },
                 1268: {
                     slidesPerView: 6,
+                    spaceBetween: 30
+                }
+            },
+            on: {}
+        });
+        if (document.querySelector(".tranding__slider")) new core(".tranding__slider", {
+            modules: [ Navigation, Pagination ],
+            observer: true,
+            observeParents: true,
+            slidesPerView: 4,
+            spaceBetween: 30,
+            autoHeight: true,
+            speed: 800,
+            pagination: {
+                el: ".tranding__pagination",
+                clickable: true
+            },
+            navigation: {
+                prevEl: ".tranding__button_prev",
+                nextEl: ".tranding__button_next"
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 15,
+                    autoHeight: true
+                },
+                480: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 15
+                },
+                600: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                800: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                1100: {
+                    slidesPerView: 4,
                     spaceBetween: 30
                 }
             },
